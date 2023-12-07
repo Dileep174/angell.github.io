@@ -1,0 +1,31 @@
+/*
+Theme Name: Angel
+Theme URI: Angel
+Author: admin
+*/
+
+.navbar .navbar-nav .nav-link {
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 18px !important;
+    transition: .5s;
+}
+
+.custom-logo {
+    height: 70px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.menu-image-title.menu-image-title-above, .menu-image-title.menu-image-title-below, .menu-image-title-below, .menu-image-title-above, .menu-item a.menu-image-title-above, .menu-item a.menu-image-title-below, .menu-image-title.menu-image-title-above, .menu-image-title.menu-image-title-below {
+    text-align: center;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px)
+{
+    nav.navbar.navbar-light.navbar-expand-lg.p-0 {
+        display: grid;
+        justify-content: center;
+    }
+}
